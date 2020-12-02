@@ -12,6 +12,7 @@ h1, h2, h3 {
 p {
   font-family: 'Libre Baskerville', serif;
   margin: 0;
+  font-size: clamp(8px, 2vw, 16px);
 }
 /* DDCA7D - B88B4A - A27035 - 533E2D - 242331  */
 
@@ -24,140 +25,13 @@ body  {
   
 }
 
-.banner{
-  background-image: linear-gradient(45deg, #e0cf7f, #e8ff64);
-  background-attachment: fixed;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 1px 7px 1px;
-}
-
-.hero{
-  display: flex;
-  align-items: center;
-  height: 65vh;
-  /* background-color: aliceblue; */
-  /* background-image: linear-gradient(45deg, #e9db9d, #e8ff64); */
-  padding: 25px;
 
 
-}
-
-.tagline h2{
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.logo {
-  margin-left: 25px;
-}
-
-.nav {
-  display: flex;
-  flex-direction: row;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-li {
-  margin: 5px 25px;
-}
-
-.about {
-  display: flex;
-  margin: 0;
-  padding: 65px;
-}
 
 
-.about figure img {
-  height: 185px;
-  width: 175px;
-}
-
-.about .me{
-  display: grid;
-  align-items: center;
-  padding: 25px;
-}
-
-.projects {
-  display: flex;
-  padding: 25px;
-  border-top: 3px solid #e3e076;
-  align-items: center;
-  flex-direction: column;
-  
-}
-
-.project1 {
-  display: flex;
-
-}
-
-.project1 figure {
-  margin-top: 55px;
-}
 
 
-.project1 figure img {
-  width: 175px;
-  height: 185px;
-}
 
-.proj1 {
-  display: grid;
-  align-items: center;
-  padding: 25px;
-  justify-content: center;  
-}
-
-.contact {
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  border-top: 3px solid #e3e076;
-  text-align: center;
-
-}
-
-.options {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  /* background-color: orange; */
-  width: 20em;
-  background-image: linear-gradient(45deg, rgb(255, 191, 0), #ffff2e);
-  margin: 1px 30px 1px 30px;
-  padding: 40px 20px 20px 20px;
-  flex-grow: inherit;
-  flex-shrink: 1;
-  flex-basis: auto;
-  margin: 7px;
-}
-
-.card h1 {
-  text-align: center;
-  font-size: 55px;
-}
-
-.card h3 {
-  text-align: center;
-  font-size: 25px;
-  margin: 15px;
-}
 
 
 

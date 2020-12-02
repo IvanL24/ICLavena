@@ -1,0 +1,17 @@
+.about {
+  display: flex;
+  margin: 0;
+  padding: 65px;
+}
+
+
+.about figure img {
+  height: 185px;
+  width: 175px;
+}
+
+.about .me{
+  display: grid;
+  align-items: center;
+  padding: 25px;
+}
