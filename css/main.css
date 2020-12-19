@@ -5,7 +5,7 @@
 }
 
 h1, h2, h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
   margin: 0;
 }
 
@@ -17,15 +17,98 @@ p {
 /* DDCA7D - B88B4A - A27035 - 533E2D - 242331  */
 
 body  {
-  margin: 0;
-  /* background-color: #c6f1e7; */
-  background-color: #4f194f;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(209.21deg, rgb(47, 184, 255) 13.57%, rgb(131, 213, 255) 98.38%);
+  background-size: cover;
   color: #e85666;
   
 }
 
+.container {
+  width: 85vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  align-content: center;
+  /* border: 1px solid black; */
+  border-radius: 40px;
 
+  /* neumorph */
+  background: linear-gradient(42deg, #56c9ff, #2fb8ff);
+  box-shadow: 7px -6px 20px #0496e1, -7px 6px 20px #a6e1ff;
+
+}
+
+.card {
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  border-radius: 40px;
+
+  /* neumorph */
+  background: linear-gradient(42deg, #56c9ff, #2fb8ff);
+  box-shadow: 7px -6px 20px #0496e1, -7px 6px 20px #a6e1ff;
+
+}
+
+.tagline h2 {
+  font-size: clamp(10px, 5vw, 70px);
+  text-align: center;
+  margin: 10px 0;
+
+  /* neumorph */
+  font-weight: 900;
+  /* text-shadow: 7px -6px 2px #0496e1, -7px 6px 6px #a6e1ff;
+  color: #34baff; */
+
+  /* debossed version */
+  text-shadow: -3px 0px 0px #028cee, 0px 0px 6px #a6e1ff;
+  color: #ffffff4d;
+
+}
+
+
+
+.nav {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-rows: repeat(1fr*3);
+  width: 5vw;
+  height: 50vh; 
+  align-self: center;
+  align-items: center;
+  justify-self: center;
+  
+  
+}
+
+.nav h2 {
+  /* border: 1px solid purple; */
+  text-align: center;
+  padding: 15px 15px;
+  border-radius: 20px;
+  margin: 10px 0;
+
+  /* neumorph */
+  background: linear-gradient(42deg, #56c9ff, #2fb8ff);
+  box-shadow: 5px -5px 11px #0496e1, -5px 5px 11px #91d5f9;
+
+}
+
+.nav h2:hover {
+  text-shadow: -3px 0px 0px #028cee, 0px 0px 6px #a6e1ff;
+  color: #ffffff4d;
+}
 
 
 
