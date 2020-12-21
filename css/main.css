@@ -16,9 +16,9 @@ p {
 }
 /* DDCA7D - B88B4A - A27035 - 533E2D - 242331  */
 
-/* a {
-  color: #69b2ff;
-} */
+a {
+  color: #06478d;
+}
 
 body  {
 
@@ -30,7 +30,6 @@ body  {
   margin: 0;
   background: linear-gradient(209.21deg, rgb(47, 184, 255) 13.57%, rgb(131, 213, 255) 98.38%);
   background-size: cover;
-  /* color: #e85666; */
   
 }
 
@@ -40,7 +39,6 @@ body  {
   display: grid;
   grid-template-columns: 5fr 1fr;
   align-content: center;
-  /* border: 1px solid black; */
   border-radius: 40px;
 
   /* neumorph */
@@ -57,7 +55,6 @@ body  {
   justify-self: center;
   align-items: center;
   align-self: center;
-  /* border: 1px solid black; */
   border-radius: 40px;
 
   /* neumorph */
@@ -68,14 +65,11 @@ body  {
 
 .tagline h2 {
   font-size: clamp(10px, 5vw, 70px);
-  text-align: center;
   margin: 10px 0;
 
   /* neumorph */
   font-weight: 900;
-  /* text-shadow: 7px -6px 2px #0496e1, -7px 6px 6px #a6e1ff;
-  color: #34baff; */
-
+ 
   /* debossed version */
   text-shadow: -2px 2px 0px #0269ee, -2px 2px 6px #a6e1ff;
   color: #ffffff4d;
@@ -85,11 +79,8 @@ body  {
 
 
 .nav {
-  /* border: 1px solid black; */
   display: grid;
   grid-template-rows: repeat(1fr*3);
-  /* width: 5vw; */
-  /* height: 50vh;  */
   align-self: center;
   align-items: center;
   justify-self: center;
@@ -107,17 +98,21 @@ body  {
 }
 
 .nav li {
-  /* border: 1px solid purple; */
   text-align: center;
   padding: 15px 15px;
   border-radius: 20px;
   margin: 40px 0;
   transition: all 0.5s ease-in-out;
+  font-size: 20px;
 
   /* neumorph */
   background: linear-gradient(42deg, #56c9ff, #2fb8ff);
   box-shadow: 5px -5px 11px #0496e1, -5px 5px 11px #91d5f9;
 
+}
+
+.nav li i {
+  font-size: 30px;
 }
 
 
@@ -135,10 +130,18 @@ body  {
   
 }
 
-/* .nav li a:hover {
-  text-shadow: -2px 2px 0px #0269ee, -2px 2px 6px #a6e1ff;
-color: #ffffff4d;
-} */
+.drpdown {
+  position: absolute;
+  display: grid;
+  justify-self: end;
+  align-self: center;
+
+}
+
+
+
+
+
 
 
 
@@ -154,3 +157,22 @@ footer {
   align-items: center;
   text-align: center;
 }
+
+
+
+/* ********** HAMBURGER MENU SETTING *********** */
+
+/* .icon-bar {
+  display: block;
+  height: 2px;
+  background-color: #06478d;
+  margin: 5px 0;
+  padding: 2px 0;
+  transition: all 0.2s;
+}
+.top-bar {
+  transform: rotate(0);
+}
+.middle-bar {
+  opacity: 1;
+} */
